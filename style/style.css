@@ -51,13 +51,14 @@
  .main-container {    /* main kontainer ini itu tadi kita buat untuk ngasih jarak yang ini(LOGO DA) untuk ngasih jarak di sini  ke kiri dan kanannya */
     width: 1200px;
     margin: 0 auto;
+    width: 90%;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .main-container {
     width: 90%;
     }
-}    
+}     */
 
     
 
@@ -173,7 +174,7 @@ nav ul li a {
 
 
 /* Hero Section */
-#hero {
+#hero { 
     height: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr;
